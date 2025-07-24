@@ -1,0 +1,87 @@
+body {
+    font-size: 15pt;
+    margin: 0px;
+    background: linear-gradient(90deg, #200050, #402090, #603090);
+}
+.startlabel{
+    font-size: 70px;
+    animation: spawn 1s;
+}
+@keyframes spawn{
+    0%{
+        transform: translate(0px, 100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+p, h1{
+    background-image: linear-gradient(-45deg, white, #600090);
+    background-clip: text;
+    color: transparent;
+    
+}
+.topponel{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(#100020, #200030);
+    border: 3px solid linear-gradient(90deg, #100020, #200030);
+}
+.idle{
+    background: linear-gradient(-45deg, #200040, #400060);
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+}
+.rightponel{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    background: #050030;
+    right: -150px;
+    top: 0px;
+    z-index: 30;
+}
+.smoll{
+    font-size: 30px;
+    animation: spawn 1.5s;
+}
+
+.threetoch{
+    border-radius: 10px;
+    font-size: 30px;
+    z-index: 10;
+}
+.threetoch:hover{
+    border: 2px solid #ff7000;
+}
+.threetoch:active{
+    background: #9990ff;
+}
+.selectbtn{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #200040;
+    background: linear-gradient(90deg, #100030, #200040);
+    color: silver;
+    z-index: 30;
+}
+.selectbtn:hover{
+    background: linear-gradient(90deg, #400080, #6000ff);
+}
+.cryper{
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(-45deg, blue, rgba(0,0,0,.0), rgba(0,0,0,.0));
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    animation: spawn 1s;
+}
