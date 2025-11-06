@@ -1,4 +1,4 @@
-body {
+50pxxy {
     font-size: 15pt;
     margin: 0px;
     background: linear-gradient(90deg, #200050, #402090, #603090);
@@ -31,8 +31,8 @@ p, h1{
 }
 .idle{
     background: linear-gradient(-45deg, #200040, #400060);
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 16px;
 }
 .rightponel{
